@@ -24,9 +24,11 @@ The next step was to gather the data. Since I was only interested in rap songs, 
 
 Then, still using the Selenium driver, I visited every page on the list, gathering the following data as I went along: the lyrics themselves (ignoring the annotations), some metadata categories, including the number of views (which will be the target in my linear regression model), the tags associated with the song, and the number of people who contributed annotations to explain the song’s lyrics.
 
-![](img/verified.png)![](img/metadata.png)
+![](img/metadata.png)
 
-I also kept track of whether the song featured what the website calls Verified Contributions. This tells you whether the artist herself, or the songwriter, or one of the producers, are among the people who submitted explanations of the lyric.
+I also kept track of whether the song featured what the website calls Verified Contributions. This tells you whether the artist herself, or the songwriter, or one of the producers, are among the people who submitted explanations of the lyric. (See below for an example.)
+
+![](img/verified.png)
 
 ## Feature engineering
 
