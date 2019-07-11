@@ -51,7 +51,9 @@ Let’s start with the two strongest results, which had high coefficients _and_ 
 As far as the topics are concerned, the only one that had a negative impact on the page views was the “religion” category. Does that mean that Kanye West was right? In _Jesus Walks_ (2004), West rapped:
 
 > They say you can rap about anything except for Jesus
+
 > That means guns, sex, lies, videotape
+
 > But if I talk about God my record won't get played, huh?
 
 Not so fast. The p-value is somewhat high: 0.23. By contrast, the “cars” feature had a positive effect on the number of views, but its p-value was 0.06, much closer to the standard 0.05 threshold for statistical significance.
@@ -66,4 +68,4 @@ Once the songs are released to the public, I would want to tell all my friends t
 
 As an added bonus, just for kicks, here’s the relative effect of various brands on the page views.
 
-![](img/brands.svg)
+![](img/clothes_brands.svg)
